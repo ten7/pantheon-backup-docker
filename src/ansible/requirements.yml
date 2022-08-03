@@ -1,0 +1,11 @@
+---
+roles:
+  - src: ten7.flightdeck_base
+    version: 5.1.3
+  - src: ten7.pantheon_backup
+    version: 1.0.0
+collections:
+  - name: cloud.common
+  - name: amazon.aws
+  - name: community.general
+
