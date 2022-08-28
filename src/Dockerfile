@@ -20,5 +20,5 @@ RUN ansible-galaxy install -fr /ansible/requirements.yml && \
 USER backup
 
 # Set the entrypoint and default command.
-#ENTRYPOINT ["docker-entrypoint.sh"]
-#CMD ["pantheon-backup"]
+ENTRYPOINT ["docker-entrypoint.sh"]
+CMD ["pantheon-backup"]
