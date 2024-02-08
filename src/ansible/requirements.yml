@@ -5,7 +5,7 @@ roles:
   - name: ten7.pantheon_backup
     src: https://github.com/ten7/pantheon-backup.git
     scm: git
-    version: 1.1.4
+    version: 1.1.5
 collections:
   - name: cloud.common
   - name: community.general
